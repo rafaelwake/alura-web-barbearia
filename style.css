@@ -11,12 +11,8 @@ h1{
 }
 
 .banner{
-    width: 100%;
-    left: 50000px;
-    top: 100px;
     margin: auto;
     border: 2px;
-    
 }
 
 .itens{
@@ -38,4 +34,15 @@ em strong {
 
 .principal{
     background: #CCCCCC;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagemBeneficio{
+    width: 50%;
 }
