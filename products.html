@@ -3,30 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <title>Produtos - Barbearia Alura</title>
+
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="produtcs.css">
-
     </head>
-
 
     <body>
         <header>
-            <h1> <img src="pictures/logo.png"> </h1>
-            
-            <ul>
-                <li>Pagina Inicial</li>
-                <li>Produtos</li>
-                <li>Contato</li>
-            
-            </ul>
-
+            <div class="caixa">
+                <h1> <img src="pictures/logo.png"> </h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicial</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    
+                    </ul>
+                </nav>
+            </div>
         </header>
 
+        <main>
+            <ul class="produtos">
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src="pictures/cabelo.jpg">
+                    <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+                    <p class="produto-preco">R$ 25,00</p>
+                    <p></p>
+                </li>
+
+                <li>
+                    <h2>Barba</h2>
+                    <img src="pictures/barba.jpg">
+                    <p class="produto-descricao">Corte e desenho profissional de barba</p>
+                    <p class="produto-preco">R$ 18,00</p>
+                    <p></p>
+                </li>
+
+                <li>
+                    <h2>Cabelo + Barba</h2>
+                    <img src="pictures/cabelo+barba.jpg">
+                    <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+                    <p class="produto-preco">R$ 30,00</p>
+                    <p></p>
+                </li>
+            </ul>
+
+        </main>
+        
+        <footer>
+            <img src="pictures/logo-branco.png">
+            <p class="rodape-descricao">&copy; Copyright Barbearia Alura 2022</p>
+
+        </footer>
 
 
     </body>
-
-
-
-
 
 </html>

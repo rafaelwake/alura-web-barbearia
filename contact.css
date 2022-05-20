@@ -1,0 +1,61 @@
+
+/*header*/
+header{
+    background: #CCCCCC;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+    
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 100px;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+main{
+    text-align: center;
+}
+
+
+
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background: url("pictures/bg.jpg");
+}
+
+.rodape-descricao{
+    font-size: 16px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+}
