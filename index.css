@@ -38,65 +38,68 @@ nav a:hover{
 }
 
 
-/*I'm analysing*/
-body{
-    border: 2px solid;
-
-}
-
-p{
-    text-align: left;
-}
+/*main*/
 
 .titulo-principal{
-    background: #CCCCCC;
-    padding-left: 30px;
-
+    text-align: left;
+    margin: 0, auto;
 }
+
+.principal{
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;    
+}
+
 .titulo-centralizado{
-    text-align: center;    
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline;
 }
-
-
 
 .banner{
-    margin: auto;
-    border: 2px;
-}
-
-.itens{
-    font-style: italic;
+    width: 100%;
 }
 
 #missao{
-    font-size: 20px;
+    font-size: 23px;
+    margin: 15px;
 }
 
-em strong {
-    color: rgb(255, 255, 0);
+em strong{
+    color: blue;
+    font-style: italic; 
+    text-decoration-line: underline;
 }
 
 .beneficios{
-    background: white;
+    background: #FFFFFF;
     text-align: center;
     padding: 20px;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
+.imagemBeneficio{
+    width: 35%;
 }
 
-ul{
+.beneficios ul{
     display: inline-block;
     vertical-align: top;
-    width: 15%;
+    width: 25%;
     margin-right: auto;
 }
 
-.imagemBeneficio{
-    
-    width: 50%;
+.beneficios li{
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
