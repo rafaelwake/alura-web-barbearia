@@ -1,5 +1,6 @@
 
 /*header*/
+/*______________________________________________*/
 header{
     background: #CCCCCC;
     padding: 20px 0;
@@ -38,15 +39,38 @@ nav a:hover{
 }
 
 
-main{
-    text-align: center;
+/*______________________________________________*/
+
+/*main*/
+main{width: 940px; margin: 0 auto;}
+
+form{margin: 40px 0;}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px 0;
 }
 
 
 
 
-/*footer*/
 
+
+
+/*footer*/
+/*______________________________________________*/
 footer{
     text-align: center;
     background: url("pictures/bg.jpg");
@@ -59,3 +83,4 @@ footer{
     font-weight: bold;
     margin-top: 20px;
 }
+/*______________________________________________*/
