@@ -6,13 +6,14 @@
 
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="pictures/logo-branco.png"/>
     </head>
 
 
     <body>
         <header>
             <div class="caixa">
-                <h1> <img src="pictures/logo.png"> </h1>
+                <h1> <img src="pictures/logo.png" alt="logo da barbearia alura"> </h1>
                 
                 <nav>
                     <ul>
@@ -28,46 +29,85 @@
         <main>
             <form>
                 <label for="nomeSobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomeSobrenome" class="input-padrao">
+                <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
 
                     <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
                     <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
-                    <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
-                </div>
+                    <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset>
 
-                <div>
-                    <p>Qual horário prefere ser atendido?</p>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>
+                </fieldset>
                 
 
-                <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
 
-                <input type="submit" value="Enviar Formulário" class="input-padrao">
+                <input type="submit" value="Enviar Formulário" class="enviar">
 
             </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                
+                <tbody> 
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Terça-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>8h - 16h</td>
+                    </tr> 
+                </tbody>
+                
+            </table>
+
         </main>
             
         <footer>
-            <img src="pictures/logo-branco.png">
+            <img src="pictures/logo-branco.png" alt="logo da barbearia alura">
             <p class="rodape-descricao">&copy; Copyright Barbearia Alura 2022</p>
         </footer>
 
