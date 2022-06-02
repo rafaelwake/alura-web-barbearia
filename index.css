@@ -1,3 +1,12 @@
+/*resposivo*/
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, body, main{
+        width: auto;
+    }
+}
+
+
 /*font from google */
 body{
     font-family: 'Montserrat', sans-serif;
@@ -69,6 +78,7 @@ nav a:hover{
     font-weight: bold;
     text-align: center;
     transition: 0.5s;
+    text-shadow: 2px 2px #ccffcc;
 }
 
 .titulo-centralizado:before{
@@ -86,11 +96,13 @@ nav a:hover{
     font-size: 2.2em;
     color: blue;
     transition: 0.5s;
+    opacity: 0.7;
+    text-shadow: 3px 3xp #ccffcc;
 }
 
 
 #missao{
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0.5em 0 0.5em 0;
 }
 
@@ -102,7 +114,7 @@ em strong{
 }
 
 em strong:hover{
-    font-size: 1.3em;
+    font-size: 1.2em;
     transition: 0.5s;
 }
 
@@ -123,6 +135,14 @@ em strong:hover{
 
 .imagemBeneficio{
     width: 47%;
+    opacity: 1;
+    transition: 300ms;
+    box-shadow: -5px 5px 5px 5px #000000;
+}
+
+.imagemBeneficio:hover{
+    transition: 300ms;
+    opacity: 0.8;
 }
 
 .beneficios ul{
