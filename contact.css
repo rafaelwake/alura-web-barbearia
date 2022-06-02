@@ -1,0 +1,126 @@
+
+/*font from google */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+/*______________________________________________*/
+header{
+    background: #CCCCCC;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+    
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 100px;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    transition: 1s;
+    background: #ccffcc;
+    border: none;
+    border-radius: 1em;
+    padding: 0.2em;
+}
+
+nav a:hover{
+    background: green;
+    transition: 0.5s;
+}
+
+
+/*______________________________________________*/
+
+/*main*/
+main{width: 940px; margin: 0 auto;}
+
+form{margin: 40px 0;}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: #ccffcc;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.8em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background-color: green;
+    transform: rotate(2deg) scale(1.1);
+}
+
+table{
+    margin: 2em 2em;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #000000;
+    align-items: center;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 1em 1em;
+}
+
+
+
+
+
+/*footer*/
+/*______________________________________________*/
+footer{
+    text-align: center;
+    background: url("pictures/bg.jpg");
+}
+
+.rodape-descricao{
+    font-size: 16px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*______________________________________________*/
